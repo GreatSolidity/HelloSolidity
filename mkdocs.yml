@@ -1,6 +1,6 @@
 site_name: helloSolidity
 site_url: https://greatsolidity.github.io/helloSolidity/
-repo_url: https://github.com/GreatSolidity/helloSolidity.git
+repo_url: https://github.com/GreatSolidity/helloSolidity
 repo_name: helloSolidity
 extra_css:
   - stylesheets/extra.css
