@@ -1,0 +1,61 @@
+site_name: helloSolidity
+site_url: https://greatsolidity.github.io/helloSolidity/
+repo_url: https://github.com/GreatSolidity/helloSolidity.git
+repo_name: helloSolidity
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
+theme:
+  name: material
+  custom_dir: overrides
+  language: 'zh'
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.follow
+    - navigation.top
+plugins:
+  - search
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: 中文
+      link: /zh/
+      lang: zh
+markdown_extensions:
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+nav:
+- Home : './index.md'
+- 入门:
+  - hardhat: './sites/beginner/hardhat.md'
+- 进阶: './sites/intermediate/index.md'
+- 高级: './sites/advanced/index.md'
+- 科学家: './sites/scientist/index.md'
