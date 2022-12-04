@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://greatsolidity.github.io/helloSolidity/</loc>
-         <lastmod>2022-12-03</lastmod>
+         <lastmod>2022-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://greatsolidity.github.io/helloSolidity/sites/advanced/</loc>
-         <lastmod>2022-12-03</lastmod>
+         <lastmod>2022-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://greatsolidity.github.io/helloSolidity/sites/beginner/hardhat/</loc>
-         <lastmod>2022-12-03</lastmod>
+         <loc>https://greatsolidity.github.io/helloSolidity/sites/beginner/</loc>
+         <lastmod>2022-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://greatsolidity.github.io/helloSolidity/sites/intermediate/</loc>
-         <lastmod>2022-12-03</lastmod>
+         <lastmod>2022-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://greatsolidity.github.io/helloSolidity/sites/scientist/</loc>
-         <lastmod>2022-12-03</lastmod>
+         <lastmod>2022-12-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

@@ -1,6 +1,6 @@
 site_name: helloSolidity
 site_url: https://greatsolidity.github.io/helloSolidity/
-repo_url: https://github.com/GreatSolidity/helloSolidity
+repo_url: https://github.com/GreatSolidity/helloSolidity/
 repo_name: helloSolidity
 extra_css:
   - stylesheets/extra.css
@@ -53,9 +53,48 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
-- Home : './index.md'
 - 入门:
-  - hardhat: './sites/beginner/hardhat.md'
-- 进阶: './sites/intermediate/index.md'
-- 高级: './sites/advanced/index.md'
+  - 快速实现: './sites/beginner/index.md'
+  - 语法介绍: ''
+  - 类型: ''
+  - 变量: ''
+  - 控制结构: ''
+  - modifier: ''
+  - event: ''
+  - 作用域: ''
+  - 可见性: ''
+  - 继承: ''
+  - 抽象合约: ''
+  - 接口: ''
+  - 库: ''
+- 进阶:
+  - hardhat-测试: './sites/intermediate/index.md'
+  - hardhat-部署: ''
+  - openzepplin: ''
+  - ganach: ''
+  - Delegatecall & call & staticCall: ''
+  - 变量的存储: ''
+  - 变量在内存布局: ''
+  - CallData 布局: ''
+  - 清理变量: ''
+  - 函数选择器和参数编码: ''
+  - 检查模式与非检查模式: ''
+  - erc20\erc721\erc1155: ''
+  - create2: ''
+  - 可升级合约: ''
+  - 基本安全漏洞: ''
+  - 省钱: ''
+  - etherscan的使用: ''
+  - 测试链: ''
+- 高级:
+  - evm（以太坊虚拟机）: './sites/advanced/index.md'
+  - 签名&验签: ''
+  - 多签: ''
+  - 合约钱包: ''
+  - Graph: ''
+  - 质押原理: ''
+  - 默克尔树: ''
+  - 滑点: ''
+  - L2: ''
+  - 时间锁: ''
 - 科学家: './sites/scientist/index.md'
